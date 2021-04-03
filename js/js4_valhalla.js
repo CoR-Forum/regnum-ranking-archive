@@ -11,7 +11,7 @@ let hide_top_x_s;
 let alltimeranking_d;
 
 $(document).ready(function() {
-	$.get('./get.php?wat=players').then(function(resp) {
+	$.get('./get_valhalla.php?wat=players').then(function(resp) {
 		players = JSON.parse(resp);
 	});
 
@@ -108,7 +108,7 @@ function getrlmps(whos) {
 	charactersUl.html('');
 	let requests = [];
 	whos.forEach(who => {
-		requests.push($.get('get.php?wat=rlmp&name=' + who.name + '&realm=' + who.realm));
+		requests.push($.get('get_valhalla.php?wat=rlmp&name=' + who.name + '&realm=' + who.realm));
 	});
 	$.when.apply($, requests).then(function() {
 		chartcontainerD.show();

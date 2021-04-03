@@ -7,7 +7,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="./js/canvasjs.min.js"></script>
 	<script src="./js/helpers.js"></script>
-	<script src="./js/js4.js"></script>
+	<script src="./js/js4_valhalla.js?v=1"></script>
 	<?php
 	require_once("ranking.class.valhalla.php");
 	$ranking = new Ranking();
