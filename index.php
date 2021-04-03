@@ -5,9 +5,9 @@
 	<link rel="stylesheet" href="css.5.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="canvasjs.min.js"></script>
-	<script src="helpers.js"></script>
-	<script src="js4.js"></script>
+	<script src="./js/canvasjs.min.js"></script>
+	<script src="./js/helpers.js"></script>
+	<script src="./js/js4.js"></script>
 	<?php
 	require_once("ranking.class.php");
 	$ranking = new Ranking();
