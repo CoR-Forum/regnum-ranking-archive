@@ -1,7 +1,7 @@
 <?php
 
 require_once('global.php');
-require_once('ranking.class.php');
+require_once('ranking.class.valhalla.php');
 
 $wat = isset($_GET['wat']) ? $_GET['wat'] : null;
 if (empty($wat)) {

@@ -11,7 +11,7 @@ let hide_top_x_s;
 let alltimeranking_d;
 
 $(document).ready(function() {
-	$.get('get.php?wat=players').then(function(resp) {
+	$.get('./get.php?wat=players').then(function(resp) {
 		players = JSON.parse(resp);
 	});
 
