@@ -4,7 +4,7 @@ html, body {
 body {
   color: #dddddd;
   font-family: 'Open Sans', sans-serif;
-  background-image: url("bck.jpg");
+  background-image: url("../../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -83,6 +83,9 @@ body {
   display: inline-block; }
 
 #footer {
-  text-align: right; }
+  text-align: right;
+  display: inline-block;
+  max-width: 550px;
+  float: right; }
 
 /*# sourceMappingURL=css.css.map */
