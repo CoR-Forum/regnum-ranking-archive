@@ -9,7 +9,7 @@
 	<script src="./js/helpers.js"></script>
 	<script src="./js/js4.js"></script>
 	<?php
-	require_once("ranking.class.php");
+	require_once("ranking.class.valhalla.php");
 	$ranking = new Ranking();
 	?>
 </head>
