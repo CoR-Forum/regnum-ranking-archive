@@ -23,7 +23,7 @@ if ($wat == 'players') {
 	]);
 
 	// log
-	$LOGFILE = 'rankingLogValhalla.log';
+	$LOGFILE = './logs/rankingLogValhalla.log';
 	file_put_contents($LOGFILE, "\n" . date('c') . " " . $name, FILE_APPEND);
 }
 
