@@ -1,7 +1,7 @@
 <?php
 
-require_once('../global.php');
-require_once('../ranking.class.valhalla.php');
+require_once('./global.php');
+require_once('./ranking.class.valhalla.php');
 
 $wat = isset($_GET['wat']) ? $_GET['wat'] : null;
 if (empty($wat)) {
@@ -23,7 +23,7 @@ if ($wat == 'players') {
 	]);
 
 	// log
-	$LOGFILE = '../logs/rankingLogValhalla.log';
+	$LOGFILE = './logs/rankingLogValhalla.log';
 	file_put_contents($LOGFILE, "\n" . date('c') . " " . $name, FILE_APPEND);
 }
 
