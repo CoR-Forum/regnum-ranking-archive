@@ -5,7 +5,7 @@ if(!defined('WCF_DIR')) {
 	define('WCF_DIR', "../../forum/");
 }
 require_once(WCF_DIR . '../regnum/rankingarchive/global.php');
-require_once(WCF_DIR . '../regnum/lib/class.connect.php');
+require_once(WCF_DIR . '../regnum/lib/class.connect.valhalla.php');
 
 class Ranking
 {
