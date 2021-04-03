@@ -1,7 +1,7 @@
 <?php
 
 require_once('global.php');
-require_once('ranking.class.php');
+require_once('ranking.class.valhalla.php');
 require_once('simple_html_dom.php');
 
 echo 'Hello, this is the Regnum Rankingarchive Cronjob.';
