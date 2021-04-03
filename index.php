@@ -84,6 +84,8 @@
 
 </div>
 
+
+</body>
 <footer class="padding box" id="footer">
 	<p class="unimportant">
 		* Nur Charaktere, die in einer der u.a. Datenquellen mindestens einmal im ALL TIME krp-Ranking standen, sind im Archiv enthalten.<br>
@@ -100,5 +102,4 @@
 	<p><a href="https://cor-forum.de/board/index.php?user/146-joshua2504/">Joshua2504</a> <span class="unimportant">(2021 - today)</span></p>
         <p><img src="./img/git.png" width="16px"> <a href="https://git.treudler.net/CoR-Forum/ranking-archive">source code</a></p>
 </footer>
-</body>
 </html>
