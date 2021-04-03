@@ -95,7 +95,10 @@
 	<p><a href="http://4freax.net/">fop</a> <span class="unimportant">(2008/08 - 2010/03, nur Muspell Syrtis)</span></p>
 	<p><a href="http://regnum-fans.de">Flocke</a> <span class="unimportant">(2010/03 - 2013/12)</span></p>
 	<p><a href="../../index.php">Blauhirn</a> <span class="unimportant">(2014/02 - heute)</span></p>
-        <p><img src="../../forum/images/smilies/krbis.png"/> <a href="https://github.com/phil294/cor-rankingarchive">source code</a></p>
+	<br><p>Authors:</p>
+	<p><a href="https://cor-forum.de/board/index.php?user/2-blauhirn/">Blauhirn <img src="./img/kuerbis.png"/></a> <span class="unimportant">(2014/02 - 2021)</span></p>
+	<p><a href="https://cor-forum.de/board/index.php?user/146-joshua2504/">Joshua2504</a> <span class="unimportant">(2021 - today)</span></p>
+        <p><img src="./img/git.png" width="16px"> <a href="https://git.treudler.net/CoR-Forum/ranking-archive">source code</a></p>
 </footer>
 </body>
 </html>
