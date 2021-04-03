@@ -4,7 +4,7 @@ require_once('global.php');
 require_once('ranking.class.php');
 require_once('simple_html_dom.php');
 
-echo 'I AM A CONRJOB';
+echo 'Hello, this is the Regnum Rankingarchive Cronjob.';
 
 $today_date = date('Y-m-d');
 
@@ -18,7 +18,7 @@ if(empty($last_insert)) {
 $last_date_utc = date("z", strtotime($last_insert." UTC"));
 $this_day_utc = date("z");
 if($last_date_utc == $this_day_utc) {
-	dieee("date equal. $last_date_utc, $this_day_utc");
+	dieee("Ranking already fetched today. Not fetching again. $last_date_utc, $this_day_utc");
 } elseif($last_date_utc > $this_day_utc) {
 	mail("cor-forum@waritschlager.de", 'COR RANKING new years eve', 'hi. sollte nur an silvester passieren. ranking insert ausgeführt wie normal. schüs');
 }
