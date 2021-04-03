@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>CoR Ranking Archive</title>
-	<link rel="stylesheet" href="css.5.css"/>
+	<link rel="stylesheet" href="./css/css.5.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="./js/canvasjs.min.js"></script>
