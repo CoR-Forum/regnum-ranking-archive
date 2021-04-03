@@ -1,0 +1,91 @@
+html, body {
+  height: 100%; }
+
+body {
+  color: #dddddd;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("bck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black; }
+
+a, a:visited {
+  color: #09c;
+  text-decoration: none;
+  font-weight: bold; }
+
+ul {
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+.padding, body {
+  padding: 1vh; }
+
+.padding-lg {
+  padding: 2vh; }
+
+.padding-xl {
+  padding: 4vh; }
+
+.margin {
+  margin: 1vh; }
+
+.margin-lg {
+  margin: 2vh; }
+
+.margin-xl {
+  margin: 4vh; }
+
+.clickable, a, a:visited {
+  cursor: pointer !important; }
+
+.hoverable:hover, .clickable:hover, a:hover {
+  text-shadow: 4px 3px 5px #484848; }
+
+.unimportant {
+  color: #4f4f4f;
+  font-size: smaller; }
+
+.realm4 {
+  color: red; }
+
+.realm3 {
+  color: green; }
+
+.realm2012 {
+  color: dodgerblue; }
+
+body {
+  text-align: center; }
+
+#screen1 #back {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.box {
+  border: solid 1px #4f4f4f;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  margin: 1.5%; }
+  .box #characters li {
+    white-space: pre; }
+
+#alltimeranking {
+  display: inline-block;
+  overflow: hidden; }
+
+#newtorank {
+  display: inline-block; }
+
+#footer {
+  text-align: right;
+  display: inline-block;
+  max-width: 550px;
+  float: right; }
+
+/*# sourceMappingURL=css.css.map */

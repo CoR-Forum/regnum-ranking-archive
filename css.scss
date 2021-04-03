@@ -1,0 +1,125 @@
+/////////////////////////////////////////// VARS
+$color_url: #09c;
+$color_text: #dddddd;
+$darksmoke: #4f4f4f;
+$border: solid 1px $darksmoke;
+$shadow: 4px 3px 5px $darksmoke;
+$shadow_dark: 4px 3px 5px #484848;
+
+/////////////////////////////////////////// GLOBAL
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color:$color_text;
+  font-family: 'Open Sans', sans-serif;
+
+  background-image: url('bck.jpg');
+  background-size: cover;
+  background-color: black;
+}
+
+a, a:visited {
+  color: $color_url;
+  text-decoration: none;
+  @extend .clickable;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin:0; padding:0;
+}
+
+///////////////////////////////////////////// CLASSES
+
+.padding {
+  padding: 1vh;
+}
+
+.padding-lg {
+  padding: 2vh;
+}
+
+.padding-xl {
+  padding: 4vh;
+}
+
+.margin {
+  margin: 1vh;
+}
+
+.margin-lg {
+  margin: 2vh;
+}
+
+.margin-xl {
+  margin: 4vh;
+}
+
+.clickable {
+  @extend .hoverable;
+  cursor: pointer !important;
+}
+
+.hoverable:hover {
+  //border: $border;
+  //background-color: $darksmoke;
+  text-shadow: $shadow_dark;
+}
+
+.unimportant {
+  color:$darksmoke;
+  font-size:smaller;
+}
+
+.realm4 {
+  color:red;
+
+}
+.realm3 {
+  color:green;
+}
+.realm2012 {
+  color:dodgerblue;
+}
+
+/////////////////////////////////////////////////// SPEZIELLE SELEKTOREN, IDs USW
+
+body {
+  @extend .padding;
+  text-align:center
+}
+#screen1 {
+  #back {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+}
+.box {
+  border: $border;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 4px;
+  margin: 1.5%;
+  #characters li {
+    white-space:pre;
+  }
+}
+#alltimeranking {
+  display:inline-block;
+
+  overflow:hidden;
+}
+
+#newtorank {
+  display:inline-block;
+}
+
+#footer {
+  text-align:right;
+}
