@@ -12,5 +12,5 @@
 	<br><p>Authors:</p>
 	<p><a href="https://cor-forum.de/board/index.php?user/2-blauhirn/">Blauhirn <img src="./img/kuerbis.png"/></a> <span class="unimportant">(2014/02 - 2021)</span></p>
 	<p><a href="https://cor-forum.de/board/index.php?user/146-joshua2504/">Joshua2504</a> <span class="unimportant">(2021 - today)</span></p>
-        <p><img src="./img/git.png" width="16px"> <a href="https://git.treudler.net/CoR-Forum/ranking-archive">source code</a></p>
+        <p><img src="./img/git.png" width="16px"> <a href="https://github.com/CoR-Forum/regnum-ranking-archive">source code</a></p>
 </footer>
