@@ -1,5 +1,13 @@
 This is an archive for the Realm Points ranking of Champions of Regnum.
 
+### In Action
+
+This project is maintained and hosted by the CoR Forum
+
+Ra Ranking: https://cor-forum.de/ranking/
+
+Valhalla Ranking: https://cor-forum.de/ranking-valhalla/ (Server Valhalla was shut down, this data is no longer updated)
+
 ### Notes
 
 This tool requires the ``/regnum/lib/class.connect.<server>.php``; an obfuscated version can be found in the ``tools`` folder
