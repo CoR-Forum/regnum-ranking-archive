@@ -107,7 +107,11 @@ class Ranking
 		}
 
 		$rlmps = [];
-		$sql = "SELECT rlmp,date FROM krp LEFT JOIN player on krp.player = player.id WHERE name = \"$name\" and realm = $realm order by date asc";
+		if(substr($name, 0, 13) === '[ALL PLAYERS ') {
+			$sql = "SELECT sum(rlmp) AS rlmp,date FROM krp LEFT JOIN player ON krp.player = player.id WHERE realm = $realm GROUP BY date ORDER BY date ASC";
+		} else {
+			$sql = "SELECT rlmp,date FROM krp LEFT JOIN player ON krp.player = player.id WHERE name = \"$name\" AND realm = $realm ORDER BY date ASC";
+		}
 		$result = $this->query($sql);
 		$last_time = 0;
 		while ($row = mysqli_fetch_object($result)) {

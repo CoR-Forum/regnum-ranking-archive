@@ -12,7 +12,11 @@ let alltimeranking_d;
 
 $(document).ready(function() {
 	$.get('./get_valhalla.php?wat=players').then(function(resp) {
-		players = JSON.parse(resp);
+		players = [
+			{ name: "[ALL PLAYERS ALSIUS]", realm: "2012", class: "x" },
+			{ name: "[ALL PLAYERS SYRTIS]", realm: "3", class: "x" },
+			{ name: "[ALL PLAYERS IGNIS]", realm: "4", class: "x" }
+		].concat(JSON.parse(resp));
 	});
 
 	charInput = $('#character');
